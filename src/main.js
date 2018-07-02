@@ -7,10 +7,10 @@ import axios from 'axios'
 import api from './assets/api/api.js'
 import utils from './assets/utils/utils.js'
 
-Vue.config.productionTip = false
-Vue.prototype.$axios = axios
-Vue.prototype.$api = api
-Vue.prototype.$utils = utils
+Vue.config.productionTip = false;
+Vue.prototype.$axios = axios;
+Vue.prototype.$api = api;
+Vue.prototype.$utils = utils;
 
 new Vue({
   el: '#app',

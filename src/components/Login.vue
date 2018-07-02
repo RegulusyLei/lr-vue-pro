@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
   export default {
     name: 'Login',
     data() {
@@ -21,7 +21,7 @@
     methods: {
       login () {
         this.$utils.fetchByPost.call(
-          this, 
+          this,
           `${this.$api.URL}${this.$api.LOGIN}`,
           this.loginData,
           res => {
